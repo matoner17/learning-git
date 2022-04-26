@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('about', function () {
+    return 'About Me';
+});
+
 Route::get('reporting', function () {
     return 'Reporint Feature';
 });
